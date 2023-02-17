@@ -1,9 +1,9 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include <time.h>
+#include <stdio.h>
 
 /**
- * main - prints the last digit of random generated number
+ * main - prints the last digit of random generated number and whether it is greater than 5 less than is or 0
  *
  * Return: 0
  */
