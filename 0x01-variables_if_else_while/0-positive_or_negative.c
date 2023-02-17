@@ -3,8 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - prints the value
- * Description - n stores the value 
+ * main - Entry
+ *
+ * Description: prints a random number whether it is postive, zero or negative
  * Return: 0
  */
 int main(void)
