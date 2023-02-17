@@ -5,13 +5,13 @@
  * Description: prints lowercase alphabetsin reverse ordeir
  *
  * Return: 0
-*/ 
+*/
 int main(void)
 {
-	char alphabet;
+	char letter;
 
-	for (alphabet = 'z'; alphabet >= 'a'; alphabet--)
-		putchar(alphabet);
+	for (letter = 'z'; letter >= 'a'; letter--)
+		putchar(letter);
 
 	putchar('\n');
 
