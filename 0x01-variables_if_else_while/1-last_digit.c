@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - Entry
- * Description - n represents variables
+ * main - prints the last digit of random generated number
+ *
  * Return: 0
  */
 int main(void)
