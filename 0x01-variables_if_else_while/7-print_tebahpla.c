@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
- * main: prints lowercase alphabet in reverse order
+ * main - Entry point
+ * Description: prints lowercase alphabetsin reverse ordeir
  *
  * Return: 0
- */
+*/ 
 int main(void)
 {
 	char alphabet;
