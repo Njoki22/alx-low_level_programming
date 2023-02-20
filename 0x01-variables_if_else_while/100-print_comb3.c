@@ -15,28 +15,22 @@ int main(void)
 	{
 		x = 0
 		while (x < 10)
-		{	
+		{
 			if (x != &&x < n)
 			{
 				putchar('0' + x);
 				putchar('0' + n);
-				
-				if (x + n != 17)
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			
+
+			if (x + n != 17)
+			{
+				putchar(',');
+				putchar(' ');
 			}
-
-			x++;
-
 		}
-		n++;
+		x++;
 	}
-	
-	
+	n++;
+
 	putchar('\n');
 	return (0);
 }
-				
