@@ -16,12 +16,12 @@ int main(void)
 		n = 0;
 		for  (n = 0; n < 10; n++)
 		{
-			if (n != x && n < 10)
+			if (n != x && x < 10)
 			{
 				putchar('0' + n);
 				putchar('0' + x);
 
-				if (x + n != 18)
+				if (x + n != 9)
 				{
 					putchar(',');
 					putchar(' ');
