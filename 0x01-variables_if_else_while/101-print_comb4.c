@@ -5,46 +5,34 @@
  * main - Entry point
  *
  * Description: prints all possible different combinations of three digits
- * 		in ascending order
  *
  * Return: 0
  */
 int main(void)
 {
-	int n;
-	int x;
-	int y = 0;
+	int a, b, c;
 
-	while (y < 10)
+	for (a == 0; a < 8; a++)
 	{
-		x = 0
-		while (X = 0)
+		for (b = a + 1; b < 9; b++)
 		{
-			n = 0
-			while (n < 10)
+			for (c = b + 1; c < 10; c++)
 			{
-				if (x != n && x < n && y != n && y < n)
+				if(a != b && a != c && b !=c)
 				{
-					putchar('0' + x);
-					putchar('0' + y);
-					putchar('0' + n);
-					
-					if (n + x + y != 789):
+					putchar(a + '0');
+					putchar(b + '0');
+					putchar(c + '0');
+					if (a + b +c < 24)
 					{
-					
 						putchar(',');
-						putchar( );
+						putchar(' ');
 					}
-
 				}
-				x++;
 			}
-			y++;
 		}
-		n++:
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
-		
 
