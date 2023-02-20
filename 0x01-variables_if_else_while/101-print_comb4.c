@@ -37,13 +37,12 @@ int main(void)
 					}
 
 				}
-				
+				x++;
 			}
-			x++;
+			y++;
 		}
-		y++:
+		n++:
 	}
-	n++;
 	putchar('\n')
 	return (0);
 }
