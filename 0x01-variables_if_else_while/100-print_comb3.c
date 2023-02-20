@@ -4,7 +4,8 @@
 /**
  * main - Entry point
  *
- * Description - prints all possible different combinations of two digits in ascending order
+ * Description - prints all possible different combinations of two digits
+ *		in ascending order
  *
  * Return: 0
  */
