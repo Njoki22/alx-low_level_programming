@@ -3,7 +3,8 @@
 
 /**
  * main - Entry point
- * Description:prints all possible different combinations of two digits
+ * Description:prints all possible different combinations of two digits,
+ * in ascending order, separated by a comma followed bya a space.
  * Return: 0
  */
 int main(void)
