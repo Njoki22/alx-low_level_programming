@@ -18,12 +18,12 @@ int main(void)
 		{
 			for (c = b + 1; c < 10; c++)
 			{
-				if(a != b && a != c && b !=c)
+				if (a != b && a != c && b != c)
 				{
 					putchar(a + '0');
 					putchar(b + '0');
 					putchar(c + '0');
-					if (a + b +c < 24)
+					if (a + b + c < 24)
 					{
 						putchar(',');
 						putchar(' ');
