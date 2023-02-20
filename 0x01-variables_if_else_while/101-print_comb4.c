@@ -14,22 +14,30 @@ int main(void)
 	int n;
 	int x;
 	int y = 0;
+
 	while (y < 10)
 	{
-		n = 0
-		while (n < 10)
+		x = 0
+		while (X = 0)
 		{
-			if (x != n && x < n && y != n && y < n)
+			n = 0
+			while (n < 10)
 			{
-				putchar('0' + x);
-				putchar('0' + y);
-				putchar('0' + n);
-
-				if (n + x + y != 18)
+				if (x != n && x < n && y != n && y < n)
 				{
-					putchar(',');
-					putchar( );
+					putchar('0' + x);
+					putchar('0' + y);
+					putchar('0' + n);
+					
+					if (n + x + y != 789):
+					{
+					
+						putchar(',');
+						putchar( );
+					}
+
 				}
+				
 			}
 			x++;
 		}
