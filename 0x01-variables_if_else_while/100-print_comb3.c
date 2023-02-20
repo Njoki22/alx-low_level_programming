@@ -8,27 +8,35 @@
  */
 int main(void)
 {
-	int x;
-	int n = 0;
+	int n;
+	int x = 0;
 
-	for (x = 0; x < 10; x++)
+	while (n < 10)
 	{
-		n = 0;
-		for  (n = 0; n < 10; n++)
-		{
-			if (n != x && x < 10)
+		x = 0
+		while (x < 10)
+		{	
+			if (x != &&x < n)
 			{
-				putchar('0' + n);
 				putchar('0' + x);
-
-				if (x != 57 && n != 58 )
+				putchar('0' + n);
+				
+				if (x + n != 17)
 				{
 					putchar(',');
 					putchar(' ');
 				}
+			
 			}
+
+			x++;
+
 		}
+		n++;
 	}
+	
+	
 	putchar('\n');
 	return (0);
 }
+				
