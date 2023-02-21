@@ -1,12 +1,11 @@
 #include "main.h"
-void print_alphabet_x10(void);
 
 /**
  * main - entry point
  * description: prints the alphabet, in lowercase, followed by a new line
  * Return: 0
  */
-int main(void)
+void print_alphabet_x10(void);
 {
 	char alphabet;
 
