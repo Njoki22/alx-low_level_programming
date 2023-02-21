@@ -8,11 +8,13 @@ void print_alphabet_x10(void);
  */
 int main(void)
 {
-	char b;
+	char alphabet;
 
-	for (b = 'a'; b <= 'z'; b++)
-
-	_putchar(b);
+	{
+		for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+			
+			_putchar(alphabet);
+	}
 
 	_putchar('\n');
 	return (0);
