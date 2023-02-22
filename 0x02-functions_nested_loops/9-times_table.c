@@ -2,6 +2,7 @@
 
 /**
  * times_table - prints the 9 times table, starting 0
+ * @z: product of the multiplication
  */
 
 void times_table(void)
