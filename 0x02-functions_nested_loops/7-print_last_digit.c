@@ -2,13 +2,20 @@
 
 /**
  * print_last_digit - function that prints last digit of a number
- * @num: last digit number result
+ * @y: last digit number result
  * Return: value of last digit
  */
-int print_last_digit(int num)
+int print_last_digit(int y)
 {
-	int last_digit = num % 10;
-	_putchar("The last digit of %d is %d\n", num, last_digit);
-	
-	return (last_digit);
+	int x;
+
+	x = (y % 10);
+
+	if (x < 0)
+	{
+		x = (-1 * x);
+	}
+
+	_putchar(x + '0');
+	return (x);
 }
