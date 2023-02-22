@@ -2,7 +2,9 @@
 
 /**
  * times_table - prints the 9 times table, starting 0
- * @z: product of the multiplication
+ * @a and b: integers
+ * @c: digits of result
+ * Return: times table
  */
 
 void times_table(void)
@@ -14,24 +16,24 @@ void times_table(void)
 	{
 		for (b = 0; b < 10; b++)
 		{
-			z = x * y;
-			if (y == 0)
+			c = a * b;
+			if (b == 0)
 			{
-				_putchar(z + '0');
+				_putchar(c + '0');
 			}
-				(z < 10 && y != 0);
+				(c < 10 && b != 0);
 			{
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
-				_putchar(z + '0');
+				_putchar(c + '0');
 			}
-			else if (z >= 10)
+			else if (c >= 10)
 			{
 				_putchar(',');
 				_putchar(' ');
-				_putchar((z / 10) + '0');
-				_putchar((z % 10) + '0');
+				_putchar((c / 10) + '0');
+				_putchar((c % 10) + '0');
 			}
 		}
 		_putchar('\n');
