@@ -2,16 +2,16 @@
 #include <stdio.h>
 
 /**
- * mul - function the multiplies int a and int b together
- * @a: int multiplied to b to get d
- * @b: int multiplied to a to get d
- * Return: d
+ * mul - function thath multiplies int a and int b together
+ * @a: int multiplied to b to get x
+ * @b: int multiplied to a to get x
+ * Return: x
  */
 int mul(int a, int b)
 {
-	int d;
+	int x;
 
-	d = a * b;
+	x = a * b;
 	putchar('\n');
-	return (d);
+	return (x);
 }
