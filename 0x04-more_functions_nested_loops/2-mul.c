@@ -3,15 +3,11 @@
 
 /**
  * mul - function thath multiplies int a and int b together
- * @a: int multiplied to b to get x
- * @b: int multiplied to a to get x
- * Return: x
+ * @a: int type number
+ * @b: int type number
+ * Return: result of multiplication
  */
 int mul(int a, int b)
 {
-	int x;
-
-	x = a * b;
-	putchar('\n');
-	return (x);
+	return (a * b);
 }
