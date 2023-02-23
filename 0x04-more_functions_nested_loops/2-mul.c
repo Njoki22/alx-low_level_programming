@@ -3,12 +3,11 @@
 
 /**
  * mul - function that multiplies int a and int b 
- * @a: int multiplied to b
- * @b: int multiplied to a
- * @c: result of int a multiplied by int b
- * Return: c
+ * @a: int multiplied to b to get d
+ * @b: int multiplied to a to get d
+ * Return: d
  */
 int mul(int a, int b)
 {
-	return (c);
+	return (d);
 }
