@@ -8,4 +8,4 @@
 void print_most_numbers(void)
 {
 	int i;
-	for (i =
+	for (i = 0; 
