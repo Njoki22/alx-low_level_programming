@@ -2,8 +2,8 @@
 
 /**
  * _strchr - function that locates a character in a string.
- * @s: The string to check.
- * @c: character to be identified.
+ * @s: input
+ * @c: input
  * Return: pointer to the first occurrence of the character c in the string s
  * or NULL if the character is not found
  */
