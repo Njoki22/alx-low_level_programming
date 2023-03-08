@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * puts_recursion - a function that prints a string,
+ * _puts_recursion - a function that prints a string,
  * followed by a new line.
  * @s: The string.
- * Return: void
+ * Return: void.
  */
 void _puts_recursion(char *s)
 {
@@ -15,5 +15,4 @@ void _puts_recursion(char *s)
 	}
 	_putchar(*s);
 	_puts_recursion(s + 1);
-	return;
 }
