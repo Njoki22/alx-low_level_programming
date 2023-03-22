@@ -3,11 +3,10 @@
 #include<string.h>
 
 /**
- * get_op_func - selects the correct function to performthe operationasked by user
- * @s: operator passed as argument
+ * get_op_func - ... 
+ * @s: ...
  *
- * Return: pointer to the function that corresponds to the operator
- * given as parameter. NULL if the operator is not supported
+ * Return: ...
  */
 int (*get_op_func(char *s))(int, int)
 {
@@ -21,12 +20,12 @@ int (*get_op_func(char *s))(int, int)
 	};
 	int i = 0;
 
-	while (ops[i].op != NULL)
+	while (i < 5)
 	{
-		if ((*ops[i].op == *s && *(s + 1) == '\0'))
+		if (strcmp(s, ops[i].op) == 0)
 			return (ops[i].f);
 		i++;
 	}
 
-	return (NULL);
+	return (0);
 }
