@@ -10,6 +10,7 @@ int op_mod(int a, int b);
 
 /**
  * struct op - Struct op
+ *
  * @op: The operator
  * @f: The function associated
  */
@@ -17,6 +18,6 @@ typedef struct op
 {
 	char *op;
 	int (*f)(int a, int b);
-} opt_t;
+} op_t;
 
-#endif /* CALC_H */
+#endif
