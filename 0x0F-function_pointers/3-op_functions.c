@@ -1,6 +1,3 @@
-#include "3-calc.h"
-#include <stdlib.h>
-#include <stdio.h>
 /**
  * op_add - 5 functions
  * @a: input one
