@@ -3,6 +3,7 @@
 /**
  * get_nodeint_at_index - function that returns nth node of a list
  * @head: beginning of node
+ * @index: position of node to find
  * Return: current node
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
