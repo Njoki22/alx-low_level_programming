@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * delete_nodeint_at_index - deletes node at given position 
- * @head: pointer to beginning of a list
+ * delete_nodeint_at_index - delete node at given position.
+ * @head: pointer to beginning of a node
  * @index: index of the node to be deleted
- * Return 1 if success, -1 if failed
+ * Return: 1 if success, -1 if failed
  */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
@@ -24,7 +24,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 
 	prev = NULL;
 	temp = *head;
-	for (; i < index && temp != NULL; i++)
+	for (i = 0; i < index && temp != NULL; i++)
 	{
 		prev = temp;
 		temp = temp->next;
