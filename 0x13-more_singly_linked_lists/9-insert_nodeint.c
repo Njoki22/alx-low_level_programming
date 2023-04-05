@@ -31,21 +31,21 @@ new_node->next = *head;
 *head = new_node;
 return (new_node);
 }
-if (idx != 0)
+else
 {
 temp = *head;
-
 for (i = 0; i < idx && temp != NULL; i++)
-
+{
 temp = temp->next;
+}
 
 if (temp == NULL)
 {
+free(new_node);
 return (NULL);
-}
 }
 new_node->next = temp->next;
 temp->next = new_node;
-
 return (new_node);
+}
 }
