@@ -34,7 +34,7 @@ return (new_node);
 else
 {
 temp = *head;
-for (i = 0; i < idx && temp != NULL; i++)
+for (i = 0; i < idx - 1 && temp != NULL; i++)
 {
 temp = temp->next;
 }
