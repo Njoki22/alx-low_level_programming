@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * binary_to_int - converts binary number to unsigned integer
+ * binary_to_uint - function that converts binary number to unsigned integer
  * @b: type character
  * Return: The converted number
  */
