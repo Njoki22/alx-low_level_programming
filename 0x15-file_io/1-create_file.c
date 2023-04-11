@@ -3,7 +3,7 @@
 
 /**
  * create_file - function that creates a file
- * @filenname: name of file
+ * @filename: name of file created
  * @text_content: text to write on file
  *
  * Return: 1 on success and -1 upon failure
